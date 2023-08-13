@@ -1,4 +1,4 @@
-# Blog-Application
+# EduBlog-Educational Blogging Platform
 This undertaking encompasses an Educational Blog application that serves as a platform for users to create and share blogs centered around educational subjects. The foundation of this project relies on MongoDB for proficient database operations. The connection between the application and the database is facilitated through the utilization of the Mongoose JavaScript library, seamlessly integrated with Express. To enable data storage and retrieval, a robust REST API has been constructed using the Express Framework.
 
 The application's user interface is constructed using React.js, a dynamic framework that ensures a responsive and user-friendly experience. The authentication aspect of this project is effectively managed by Firebase, bolstering security and user management. Throughout the development, a suite of React hooks including useState, useEffect, and useAuth have been expertly employed to streamline and enhance the functionality of the application.
