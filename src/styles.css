@@ -1,0 +1,123 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 500px;
+  margin: 16px;
+  float: left;
+}
+.note img {
+  width: 200px;
+  height: 200px;
+}
+.note h1 {
+  font-family: "McLaren", cursive;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+body {
+  background-color: #d8d9da;
+}
+.navbar {
+  background-color: black;
+  /* margin: auto -16px;
+  padding: 16px 32px;*/
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+nav a {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  width: 75px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+}
+.innera {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  width: 75px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+}
+.inputstyle {
+  width: 30%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+}
+.formbut {
+  /* /* position: absolute; */
+  /* right: 18px;
+  bottom: -18px; */
+  font-family: "Times New Roman";
+  background: black;
+  color: #fff;
+  border: none;
+  border-radius: 75%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+.viewbut {
+  /* /* position: absolute; */
+  /* right: 18px;
+  bottom: -18px; */
+  font-family: "Times New Roman";
+  background: black;
+  color: #fff;
+  border: none;
+  border-radius: 75%;
+  width: 150px;
+  height: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+.sumbitbut {
+  /* /* position: absolute; */
+  /* right: 18px;
+  bottom: -18px; */
+  font-family: "Times New Roman";
+  background: black;
+  color: #fff;
+  border: none;
+  /* border-radius: 75%; */
+  width: 150px;
+  height: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+label {
+  font-family: "Times New Roman", Times, serif;
+}
+input {
+  border-radius: 4px;
+}
+.message {
+  font-family: Lucida Handwriting;
+}
