@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import { auth } from "../firebase_config";
 import { signOut } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
 export default function Navinner() {
+  const dispatch = useDispatch();
   const navi = useNavigate();
   return (
     <div className="navbar">
@@ -22,6 +24,7 @@ export default function Navinner() {
               signOut(auth)
                 .then(() => {
                   console.log("signed out");
+                  dispatch({ type: "logout" });
                 })
                 .catch((err) => {
                   console.log(err);
